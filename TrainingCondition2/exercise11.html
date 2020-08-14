@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to my World</title>
+</head>
+<body>
+<script>
+    let thunhap=parseFloat(prompt('Thu nhập của bạn là'));
+    if (thunhap===4000000){
+        alert('Thuế thu nhập cá nhân của bạn là' +0 +'VND');
+    }else if (thunhap<6000000){
+        alert('Thuế thu nhập cá nhân của bạn là' + (6000000*5)/100 +'VND');
+    }else if (thunhap<9000000){
+        alert('Thuế thu nhập cá nhân của bạn là' + (9000000*10)/100 +'VND');
+    } else if (thunhap<14000000){
+        alert('Thuế thu nhập cá nhân của bạn là' +(14000000*15)/100 +'VND');
+    } else {
+        alert('Vui lòng nhập lại')
+    }
+</script>
+</body>
+</html>
